@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gymnastics</title>
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/added_styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="container">
+    <h1>How much do you know about gymnastics?</h1>
+    <p>By Isabella Sorresso</p>
+    <p>From ages six to 14, I was a competitive gymnast in artistic gymnastics. However, I never referred to it as "artistic gymnastics," it was just called "gymnastics" to me. I knew that other types of competitive gymnastics existed, but none of the gyms nearby offered training in them, so I went about my life thinking that artistic gymnastics was the "real" gymnastics and never learning the ins and outs of the other versions of the sport that I loved. For a long time I didn't know about the other forms of gymnastics, so I'm here to test your knowledge too.</p>
+    <p>Source: <a href="https://en.wikipedia.org/wiki/Gymnastics">Wikipedia</a></p>
+    </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <form>
+          <fieldset class="form-group">
+            <legend>Quiz Taker Info</legend>
+
+<!-- text boxes -->
+
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input class="form-control" type="text" id="name" placeholder="Your Name">
+            </div>
+
+            <div class="form-group">
+              <label for="age">Age</label>
+              <input class="form-control" type="text" id="age" placeholder="Your Age">
+            </div>
+
+            <div class="form-group">
+              <label for="gymnasticsexperience">How much experience do you have with gymnastics?</label>
+              <textarea class="form-control" id=gymnasticsexperience rows="4"></textarea>
+            </div>
+          </fieldset>
+<!-- quiz -->
+          <fieldset>
+            <legend>Quiz Questions</legend>
+
+<!-- question 1 -->
+
+            <label class="d-block">1. Which women's artistic gymnastics event includes an apparatus called the "pommel horse"?</label>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="pommelhorse" value="unevenbars" checked>The Uneven Bars
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="pommelhorse" value="beam" checked>Balance Beam
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="pommelhorse" value="vault" checked>Vault
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="pommelhorse" value="floor" checked>Floor
+              </label>
+            </div>
+
+<!-- question 2 -->
+
+            <label class="d-block">2. Which exercises are included as a part of men's gymnastics?</label>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Balance Beam
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Still Rings
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Parallel Bars
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Floor Exercise
+              </label>
+            </div>
+
+<!-- question 3 -->
+            <label class="d-block">3. Select the name of the rhythmic gymnastics apparatus that can be competed with multiple gymnasts at the same time.</label>
+
+            <div class="form-group">
+              <label for="competitiveapparatus">Apparatus</label>
+              <select class="form-control" id="competitiveapparatus">
+                <option>Choose One</option>
+                <option value="ball">Ball</option>
+                <option value="hoop">Hoop</option>
+                <option value="ribbon">Ribbon</option>
+                <option value="clubs">Clubs</option>
+                <option value="trampolining">Trampolining</option>
+                <option value="tumbling">Tumbling</option>
+              </select>
+            </div>
+
+<!-- question 4 -->
+
+            <label class="d-block">4. Which event in artistic gymnastics is music played?</label>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="music" value="unevenbars" checked>The Uneven Bars
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="music" value="beam" checked>Balance Beam
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="music" value="vault" checked>Vault
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="music" value="floor" checked>Floor
+              </label>
+            </div>
+
+<!-- question 5 -->
+
+            <label class="d-block">5. True or False: The music that accompanies routines can have lyrics in them.</label>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="lyrics" value="true" checked>True
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="radio" name="lyrics" value="false" checked>False
+              </label>
+            </div>
+
+<!-- question 6 -->
+
+            <label class="d-block">6. Select all the versions of gymnastics that are competitive.</label>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Rhythmic Gymnastics
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Acrobatic Gymnastics
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">General Gymnastics
+              </label>
+            </div>
+
+            <div class="form-group form-check">
+              <label class="form-check-label">
+              <input class="form-check-input" type="checkbox">Parkour
+              </label>
+            </div>
+          </fieldset>
+<!-- buttons -->
+          <fieldset>
+            <legend>Quiz Submission:</legend>
+              <button class="btn btn-primary" type="submit" value="submit">Submit</button>
+              <button class="btn btn-primary" type="button" value="reset">Reset</button>
+          </fieldset>
+
+        </form>
+        </div><!-- columns -->
+      </div><!-- row -->
+    </div><!-- container -->
+
+
+
+
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-slim.min.js"></script>
+</body>
+</html>
